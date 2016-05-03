@@ -1,0 +1,68 @@
+.onepage{width: 1200px;margin:0 auto;height: auto;padding-top: 40px;overflow: hidden;}
+.classfy{width: 99.9%;border:1px solid #ddd;background-color: #fff;line-height: 60px;border-bottom: none;height:100%;float:left;}
+.classfy:last-child{border-bottom:1px solid #ddd;}
+.classfy li{float: left;padding:20px;position: relative;}
+.classfy li a:hover{color:#056FBA;}
+.classfy .em{display: none;}
+.classfy li.sub_active a{color:#056FBA;}
+.sub_active .em{display: block;}
+.em{
+	display:block; 
+    width:0; 
+    height:0; 
+    border-width:0 10px 10px; 
+    border-style:solid; 
+    border-color:transparent transparent #ddd; 
+    position:absolute; 
+    bottom:-1px; 
+    left:50%;/* 三角形居中显示 */
+    margin-left:-10px;/* 三角形居中显示 */
+}
+.em:after{
+		content: "";
+		display:block; 
+	    width:0; 
+	    height:0; 
+	    border-width:0 11px 11px; 
+	    border-style:solid; 
+	    border-color:transparent transparent #fff; 
+	    position:absolute; 
+	    left:50%;
+	    margin-left:-11px; 
+	    top:3px;
+}
+.classfy li{display:inline;padding:0px 10px;color:#959595;font-size: 14px;}
+.classfy li a{color:#000;}
+.towpage{width: 1200px;margin:0 auto;overflow: hidden; min-height: 400px;}
+
+.course_list{margin:10px 0px;min-height: 300px;overflow: hidden;}
+.course_list a{width:100%;display: block;position: relative;}
+.course_list .play{position: absolute;z-index: 999;background: url(../img/play.png) no-repeat;width: 50px;height: 50px;top:20%;left:50%;margin-left: -25px;display: none;}
+.course_list li{width: 21%;height:230px;padding:10px;float: left;margin:10px 13px; background: #fff;border:1px solid #ddd;text-align: center;overflow: hidden;box-shadow: 1px 1px 1px 1px #ddd;}
+/* .course_list li:first-child{background-color: #056FBA;width: 20px;color: #fff;vertical-align: middle;line-height: 30px;} */
+.course_list li div{width: 100%;height: 140px;overflow: hidden;}
+.course_list li img{width: 240px;height: 140px;-webkit-transition: all 2s ease;
+   -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+     -o-transition: all 2s ease;
+        transition: all 2s ease;}
+.course_list li .article{text-align: left;text-indent: 2em;color:#333;font-size: 14px;}
+.course_list li:hover img{-webkit-transform: scale(1.5);
+   -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+     -o-transform: scale(1.5);
+        transform: scale(1.5);}
+.course_list li:hover .play{display: block;}
+.course_list li p{margin-top: 10px;color: #2E323E;}
+.course_list li p.title{font-weight: bold;}
+.course_list li p.article{color:#999c9e;}
+.course_list li p{overflow:hidden; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal;width: 100%;}
+.page{margin: 30px auto;height: 40px;font-size: 14px;text-align: center;float: left;}
+.page li{float: left;text-align: center;padding:2px 5px;margin:0px 10px;font-size: 16px;padding: 5px 10px;}
+.page li a{font-weight: bold;color:#999c9e;}
+.page li:first-child ,.page li:last-child {background-color: #329AE4;color: #fff;border-radius: 5px;}
+.page li:first-child a,.page li:last-child a{color:#fff;font-weight: normal;}
+.page li:hover,.page li.active{border-bottom: 2px solid #329AE4;}
+.page li:hover a,.page li.active a{color: #329AE4;}
+.page li:first-child:hover a,.page li:last-child:hover a{color:#fff;}
+

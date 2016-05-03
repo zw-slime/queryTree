@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,table,th,td{ margin: 0; padding: 0; }
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style: normal;font-weight: normal;}
+abbr,acronym{border: 0;font-variant: normal;}
+code,kbd,samp,tt{font-size: 100%;}
+sup,sub{font-size: 100%;vertical-align: baseline;}
+h1,h2,h3,h4,h5,h6{font-family: 'Quattrocento',"Microsoft YaHei","微软雅黑";font-weight: normal;}
+body{background: #fff;color: #000;font-family: 'Quattrocento',"Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑",serif;font-size: 14px;}
+table{border-collapse: collapse;border-spacing: 0;}
+caption,th{text-align: left;}
+input,button,select,textarea{font-family: 'Quattrocento',"Microsoft YaHei", "微软雅黑",serif;}
+input{border: none;}
+input,textarea {outline:none;}
+ul,ol{list-style: none;}
+img,fieldset{border: none;}
+p{word-wrap:break-word;}
+blockquote,q{quotes: none;}
+blockquote:before,blockquote:after,q:before,q:after{content: '';content: none;}
+a{color:#000;text-decoration:none;display: inline-block;}
+.l{float:left;}
+.r{float:right;}
+.clear{overflow:hidden;clear:both}
+.center{margin: 0 auto;}
+.hide{display:none;}

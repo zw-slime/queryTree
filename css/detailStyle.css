@@ -1,0 +1,129 @@
+body{
+	width: 100%;
+}
+.content{
+	width: 1200px;
+	margin: 0 auto;
+}
+.content1{
+	width: 100%;
+	height: 300px;
+	box-shadow: 0 2px 2px 2px #cdcdcd;
+	margin: 0 auto;
+	margin-top: 30px;
+	clear: both;
+	
+}
+.con-img{
+	width: 40%;
+	height: 240px;
+	border: 1px solid #ddd;
+	margin:2% 0px 0px 3%;
+	float: left;
+	text-align: center;
+    overflow: hidden;
+	box-shadow: 1px 1px 1px 1px #ddd;
+	position: relative;
+}
+
+.con-img img{
+	clear: both;
+	width:480px;
+	height: 240px;
+	-webkit-transition: all 2s ease;
+   	-moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+}
+.con-img:hover img{
+	-webkit-transform: scale(1.5);
+   	-moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);}
+.con-img:hover .play{display: block;}
+.con-img .play {
+    position: absolute;
+    z-index: 999;
+    background: url(../img/detail-play.png) no-repeat;
+    width: 100px;
+    height: 100px;
+    top: 35%;
+    left: 45%;
+    margin-left: -25px;
+    display: none;
+}
+
+.con-text{
+	width: 50%;
+	height: 80%;
+	/*border: 1px solid #ccc;*/
+	margin:2% 3% 0px 0px;
+	float: right;
+	position: relative;	
+}
+.con-text ul{
+	padding:5% 0 0 15%;
+	/*border: 1px solid red;*/
+	clear: both;
+}
+.con-text li{
+	padding: 5px 0 5px 10px;
+	font-size: 120%;
+}
+.con-text dd{
+	width: 55%;
+	border: 1px solid red;
+	clear: both;	
+}
+.btn{	
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	bottom: 0px;
+    right: 0px;
+}
+.btn button{
+	background-color:#505050;
+	border: 1px solid #858585;
+	border-radius:5px;   
+	color: white;
+	padding: 4px 8px;
+	margin-left: 7px;
+}
+.content2{
+	width: 100%;
+	box-shadow: 0 2px 2px 2px #cdcdcd;
+	margin: 0 auto;
+	margin-top: 30px;	
+	/*padding: 15px 30px;
+  	text-indent: 2em;
+  	font-size: 115%;
+	line-height: 25px;	
+*/}
+.content2 h3{
+	font-weight: bold;
+	margin-left:20px;
+	padding-top: 10px;
+}
+.content2>p{
+	padding: 15px 30px;
+	font-size: 115%;
+	line-height: 25px;
+	text-indent: 2em;
+}
+/*.content2 p.title{
+	font-size: 125%;
+	font-weight:600;
+}*/
+#footer{
+	margin-top: 30px;
+}
+.content2 img{
+	width:600px;
+	height: auto;
+	margin:10px auto;
+	display: block;
+
+}
